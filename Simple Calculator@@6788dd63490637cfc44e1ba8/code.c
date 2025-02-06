@@ -18,7 +18,7 @@ int main(){
             result= a/b;
                   printf("%.0f", result);
         }else{
-            printf("Error");
+            printf("error");
         }
                   break;
         default : printf("Invalid");
