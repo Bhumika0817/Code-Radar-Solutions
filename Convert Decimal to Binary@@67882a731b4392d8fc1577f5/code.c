@@ -2,9 +2,19 @@
 int main(){
     int num;
     scanf("%d", &num);
-
-    for(int i=31; i>=0; i--){
-        printf("%d", (num>>i)&1);
+    int started=0;
+    if(num==0){
+        printf("0\n");
+        return 0;
     }
-    printf("\n");
+    for(int i=31; i>=0; i--){
+        if((num>>i)&1){
+            printf("1");
+            started=1;
+        }else if(started){
+            printf("0");
+        }
+        printf("\n");
+    }
+    return 0;
 }
