@@ -6,8 +6,8 @@ int main(){
     scanf("%u", &n);
 
     if(num &(1U<<n)){
-        printf("1");
-    }else{
         printf("0");
+    }else{
+        printf("1");
     }
 }
