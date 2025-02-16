@@ -14,7 +14,6 @@ int main(){
         }else if(started){
             printf("0");
         }
-        printf("\n");
     }
     return 0;
 }
