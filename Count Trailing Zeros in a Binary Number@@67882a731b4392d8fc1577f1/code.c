@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    unsigned int n;
+    unsigned int num;
     int count=0;
-    scanf("%u", &n);
+    scanf("%u", &num);
     while((num &1)==0 && num!=0){
         count++;
         num>>=1;
