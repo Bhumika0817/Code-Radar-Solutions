@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    i=unsigned int num,n;
+    unsigned int num,n;
     scanf("%u", &num);
 
     scanf("%u", &n);
